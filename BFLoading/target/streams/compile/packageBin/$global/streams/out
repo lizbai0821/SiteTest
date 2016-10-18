@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mPackaging /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/bfloading_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	TransferUtil$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/TransferUtil$.class[0m
+[0m[[0mdebug[0m] [0m	DataLoad$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	TransferUtil.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/TransferUtil.class[0m
+[0m[[0mdebug[0m] [0m	Streaming.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/Streaming.class[0m
+[0m[[0mdebug[0m] [0m	DataLoad$$typecreator2$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$$typecreator2$1.class[0m
+[0m[[0mdebug[0m] [0m	DataLoad.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad.class[0m
+[0m[[0mdebug[0m] [0m	DataLoad$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$.class[0m
+[0m[[0mdebug[0m] [0m	DataLoad$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	Streaming$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/Streaming$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

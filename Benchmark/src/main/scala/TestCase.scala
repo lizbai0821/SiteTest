@@ -9,11 +9,12 @@ object TestCase {
 
     val spark: SparkSession = SparkSession.builder
       .appName("Benchmarking")
+      .config("spark.sql.parquet.enableVectorizedReader","false")
       .getOrCreate
 
     //Parquet location
     /*Below needs modifying*/
-    val Path: String = "hdfs://dbg11:8020/user/root/test/voice_call_parquet_new"
+    val Path: String = args(0)
 
     //read parquet file
     val parquetFileDF = spark.read.parquet(Path)
@@ -21,21 +22,26 @@ object TestCase {
     //parquetFileDF.printSchema()
 
     //create temp view
-    parquetFileDF.createOrReplaceTempView("VOICE_CALL")
+    parquetFileDF.createOrReplaceTempView("STREAMING_LIST")
 
-    val option: Int = args(0).toInt
+    val option: Int = args(2).toInt
 
     /*Below needs modifying*/
+    // the four SQL includes four different occasions 
+    //1). query includes partition key, msisdn, begin time
+    //2). query includes partition key and five attributes
+    //3). query excludes partiton key, query on msisdn and begin time
+    //4). query excludes partition key, query on five attributes
+    // all queries select 66 attributes out, which is consistent with applications 
+    // TO DO: range queries
     val result = option match {
-      case 1 => spark.sql("")
-      case 2 => spark.sql("")
-      case 3 => spark.sql("")
-      case 4 => spark.sql("")
-      case 5 => spark.sql("")
-      case 6 => spark.sql("")
+      case 1 => spark.sql("select SID,PROBEID,INTERFACEID,GROUPID,GGSN_ID,SGSN_ID,SESSION_INDICATOR,BEGIN_TIME,BEGIN_TIME_MSEL,END_TIME,END_TIME_MSEL,PROT_CATEGORY,PROT_TYPE,L7_CARRIER_PROT,"+ "MSISDN,IMSI,IMEI,ENCRYPT_VERSION,ROAMING_TYPE,ROAM_DIRECTION,MS_IP,SERVER_IP,MS_PORT,SERVER_PORT,APN,SGSN_SIG_IP,GGSN_SIG_IP,SGSN_USER_IP,GGSN_USER_IP,MCC,MNC,RAT,LAC,RAC,SAC," + "CI,BROWSER_TYPE,L4_UL_THROUGHPUT,L4_DW_THROUGHPUT,L4_UL_GOODPUT,L4_DW_GOODPUT,NETWORK_UL_TRAFFIC,NETWORK_DL_TRAFFIC,L4_UL_PACKETS,L4_DW_PACKETS,TCP_CONN_STATES,TCP_STATES,TCP_RTT,TCP_UL_OUTOFSEQU,TCP_DW_OUTOFSEQU" + " from STREAMING_LIST where  (BEGIN_TIME > 1444740000 and BEGIN_TIME < 1444750000) and MSISDN=13610514970 and last_msisdn='0' limit 5000")
+      case 2 =>spark.sql("select SID,PROBEID,INTERFACEID,GROUPID,GGSN_ID,SGSN_ID,SESSION_INDICATOR,BEGIN_TIME,BEGIN_TIME_MSEL,END_TIME,END_TIME_MSEL,PROT_CATEGORY,PROT_TYPE,L7_CARRIER_PROT,"+ "MSISDN,IMSI,IMEI,ENCRYPT_VERSION,ROAMING_TYPE,ROAM_DIRECTION,MS_IP,SERVER_IP,MS_PORT,SERVER_PORT,APN,SGSN_SIG_IP,GGSN_SIG_IP,SGSN_USER_IP,GGSN_USER_IP,MCC,MNC,RAT,LAC,RAC,SAC," + "CI,BROWSER_TYPE,L4_UL_THROUGHPUT,L4_DW_THROUGHPUT,L4_UL_GOODPUT,L4_DW_GOODPUT,NETWORK_UL_TRAFFIC,NETWORK_DL_TRAFFIC,L4_UL_PACKETS,L4_DW_PACKETS,TCP_CONN_STATES,TCP_STATES,TCP_RTT,TCP_UL_OUTOFSEQU,TCP_DW_OUTOFSEQU" + " from STREAMING_LIST where  (BEGIN_TIME > 1444740000 and BEGIN_TIME < 1444750000) and MSISDN=13610514970 and (IMSI=460000310514970 or IMEI=360149693000001 or SID=14097) and last_msisdn='0' limit 5000")
+      case 3 => spark.sql("select SID,PROBEID,INTERFACEID,GROUPID,GGSN_ID,SGSN_ID,SESSION_INDICATOR,BEGIN_TIME,BEGIN_TIME_MSEL,END_TIME,END_TIME_MSEL,PROT_CATEGORY,PROT_TYPE,L7_CARRIER_PROT,"+ "MSISDN,IMSI,IMEI,ENCRYPT_VERSION,ROAMING_TYPE,ROAM_DIRECTION,MS_IP,SERVER_IP,MS_PORT,SERVER_PORT,APN,SGSN_SIG_IP,GGSN_SIG_IP,SGSN_USER_IP,GGSN_USER_IP,MCC,MNC,RAT,LAC,RAC,SAC," + "CI,BROWSER_TYPE,L4_UL_THROUGHPUT,L4_DW_THROUGHPUT,L4_UL_GOODPUT,L4_DW_GOODPUT,NETWORK_UL_TRAFFIC,NETWORK_DL_TRAFFIC,L4_UL_PACKETS,L4_DW_PACKETS,TCP_CONN_STATES,TCP_STATES,TCP_RTT,TCP_UL_OUTOFSEQU,TCP_DW_OUTOFSEQU" + " from STREAMING_LIST where  (BEGIN_TIME > 1444740000 and BEGIN_TIME < 1444750000) and MSISDN=13610514970 limit 5000")
+      case 4 => spark.sql("select SID,PROBEID,INTERFACEID,GROUPID,GGSN_ID,SGSN_ID,SESSION_INDICATOR,BEGIN_TIME,BEGIN_TIME_MSEL,END_TIME,END_TIME_MSEL,PROT_CATEGORY,PROT_TYPE,L7_CARRIER_PROT,"+ "MSISDN,IMSI,IMEI,ENCRYPT_VERSION,ROAMING_TYPE,ROAM_DIRECTION,MS_IP,SERVER_IP,MS_PORT,SERVER_PORT,APN,SGSN_SIG_IP,GGSN_SIG_IP,SGSN_USER_IP,GGSN_USER_IP,MCC,MNC,RAT,LAC,RAC,SAC," + "CI,BROWSER_TYPE,L4_UL_THROUGHPUT,L4_DW_THROUGHPUT,L4_UL_GOODPUT,L4_DW_GOODPUT,NETWORK_UL_TRAFFIC,NETWORK_DL_TRAFFIC,L4_UL_PACKETS,L4_DW_PACKETS,TCP_CONN_STATES,TCP_STATES,TCP_RTT,TCP_UL_OUTOFSEQU,TCP_DW_OUTOFSEQU" + " from STREAMING_LIST where  (BEGIN_TIME > 1444740000 and BEGIN_TIME < 1444750000) and MSISDN=13610514970 and (IMSI=460000310514970 or IMEI=360149693000001 or SID=14097)limit 5000")
       }
     /*Below needs modifying*/
-    val resultPath: String = "hdfs://dbg11:8020/user/root/test/result_"
+    val resultPath: String = args(1)
     result.write.parquet(resultPath)
     spark.sparkContext.stop()
   }

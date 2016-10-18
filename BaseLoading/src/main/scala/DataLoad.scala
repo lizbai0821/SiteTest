@@ -33,10 +33,10 @@ object DataLoad {
     parquetFileDF.printSchema()
 
     //create temp view
-    parquetFileDF.createOrReplaceTempView("VOICE_CALL")
+    parquetFileDF.createOrReplaceTempView("STREAMING_LIST")
 
     //execute sql
-    val result1 = spark.sql("")
+    val result1 = spark.sql("select MSISDN, IMSI,IMEI from STREAMING_LIST where last_msisdn = '0'")
 
     result1.show()
     logger.info("suicide")

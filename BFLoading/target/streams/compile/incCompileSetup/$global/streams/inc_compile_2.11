@@ -1,0 +1,358 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+9 items
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$$anonfun$1.class
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$$anonfun$2.class
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$$typecreator2$1.class
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$.class
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad.class
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/Streaming$.class
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/Streaming.class
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/TransferUtil$.class
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/TransferUtil.class
+binary dependencies:
+10 items
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.0.jar
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> /Users/lizbai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> /Users/lizbai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> /Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+9 items
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> DataLoad
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> DataLoad$
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> DataLoad$$anonfun$1
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> DataLoad$$anonfun$2
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> DataLoad$$typecreator2$1
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Streaming
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Streaming$
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> TransferUtil
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> TransferUtil$
+used names:
+231 items
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> $m
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> $m$untyped
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> $typecreator2
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> $u
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> <init>
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> AnyRef
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> Array
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> ClassTag
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> DataLoad
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> LoggerFactory
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> Mirror
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> Nothing
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> Predef
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> ScalaRunTime
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> Singleton
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> SparkConf
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> SparkContext
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> SparkSession
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> Streaming
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> String
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> Type
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> TypeCreator
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> TypeTag
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> U
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> Unit
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> Universe
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> apache
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> appName
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> apply
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> args
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> arrayClass
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> asInstanceOf
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> asType
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> attributes
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> builder
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> config
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> createOrReplaceTempView
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> dataDF
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> getClass
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> getClassLoader
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> getLogger
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> getOrCreate
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> implicits
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> info
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> input
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> inputSource
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> logger
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> map
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> materializeClassTag
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> materializeTypeTag
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> newProductEncoder
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> org
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> output
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> outputPath
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> package
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> parquet
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> parquetFileDF
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> partitionBy
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> printSchema
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> rddToDatasetHolder
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> read
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> reflect
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> result1
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> runtime
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> runtimeMirror
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> saveDataAsParquet
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> scala
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> show
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> slf4j
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> spark
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> sparkContext
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> split
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> sql
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> staticClass
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> stop
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> textFile
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> toDF
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> toTypeConstructor
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> universe
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> write
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> &&
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> <init>
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> ==
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> APN
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> AUDIO_CODEC_ID
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> AUDIO_DATA_RATE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Array
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> BEGIN_TIME
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> BEGIN_TIME_MSEL
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> BROWSER_TYPE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> CI
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> DISCONNECTION_FLAG
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> ENCRYPT_VERSION
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> END_TIME
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> END_TIME_MSEL
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> FAILURE_CODE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> FLAG
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> FLOW_SAMPLE_RATIO
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_MAX_DL_SIZE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_MAX_UL_SIZE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_MIN_DL_SIZE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_MIN_UL_SIZE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_NUM
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_RETRANS_NUM
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_STREAMING_DELAY
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_STREAMING_FAILED_CODE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_STREAMING_FLAG
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_SUCCEED_NUM
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GET_TIMEOUT_NUM
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GGSN_ID
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GGSN_SIG_IP
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GGSN_USER_IP
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> GROUPID
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> HOST
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> IMEI
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> IMSI
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Int
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> IntBUFFER_FST_FLAG
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> IntBUFFER_FULL_DELAY
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> IntBUFFER_FULL_FLAG
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> IntERFACEID
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> IntTransfer
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> L4_DW_GOODPUT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> L4_DW_PACKETS
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> L4_DW_THROUGHPUT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> L4_UL_GOODPUT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> L4_UL_PACKETS
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> L4_UL_THROUGHPUT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> L7_CARRIER_PROT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> LAC
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Long
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> LongTransfer
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> MCC
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> MEDIA_FILE_TYPE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> MNC
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> MSISDN
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> MS_IP
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> MS_PORT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> NETWORK_DL_TRAFFIC
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> NETWORK_UL_TRAFFIC
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> PLAY_DURATION
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> PLAY_STATE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> PROBEID
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> PROT_CATEGORY
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> PROT_TYPE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Predef
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Product
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> RAC
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> RAT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> ROAMING_TYPE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> ROAM_DIRECTION
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> SAC
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> SERVER_IP
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> SERVER_PORT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> SESSION_INDICATOR
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> SGSN_ID
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> SGSN_SIG_IP
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> SGSN_USER_IP
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> SID
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> STALL_DURATION
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> STALL_NUM
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> STREAMING_DOWNLOAD_DELAY
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> STREAMING_DURATIOIN
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> STREAMING_DW_PACKETS
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> STREAMING_FILESIZE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> STREAMING_FLAG
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> STREAMING_QUALITY
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> STREAMING_URL
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> ScalaRunTime
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Serializable
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Statics
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> Streaming
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> String
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_CONN_2_FAILED_TIMES
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_CONN_3_FAILED_TIMES
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_CONN_STATES
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_CONN_TIMES
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_DW_OUTOFSEQU
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_DW_RETRANS
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_MSS
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_RTT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_STATES
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_STATUS_INDICATOR
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_UL_OUTOFSEQU
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_UL_RETRANS
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TCP_WIN_SIZE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> TransferUtil
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> VIDEO_CODEC_ID
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> VIDEO_DATA_RATE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> VIDEO_FRAME_RATE
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> VIDEO_HEIGHT
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> VIDEO_WIDTH
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> _toString
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> anyHash
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> apply
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> asInstanceOf
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> at
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> eq
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> finalizeHash
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> isInstanceOf
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> last_msisdn
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> longHash
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> mix
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> patitionKeyTransfer
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> runtime
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> scala
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> toString
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> trim
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> typedProductIterator
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> ||
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> -
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> <init>
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> AnyRef
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> BigInt
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> Int
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> Long
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> Predef
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> String
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> TransferUtil
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> apply
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> augmentString
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> equals
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> int2bigInt
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> length
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> math
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> numString
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> package
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> scala
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> substring
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> toInt
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> toLong
+product stamps:
+9 items
+/Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$$anonfun$1.class -> lastModified(1476702817000)
+/Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$$anonfun$2.class -> lastModified(1476702817000)
+/Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$$typecreator2$1.class -> lastModified(1476702817000)
+/Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad$.class -> lastModified(1476702817000)
+/Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/DataLoad.class -> lastModified(1476702817000)
+/Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/Streaming$.class -> lastModified(1476702817000)
+/Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/Streaming.class -> lastModified(1476702817000)
+/Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/TransferUtil$.class -> lastModified(1476702817000)
+/Users/lizbai/Documents/SiteTest/BFLoading/target/scala-2.11/classes/TransferUtil.class -> lastModified(1476702817000)
+source stamps:
+3 items
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> hash(b4e22542ac51bc090e032101c5f809c258993070)
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> hash(13426788b9e24d42b8bbd361d02a2bf26759664d)
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> hash(ce5c4a4c101a63dcac23aa3b174411f6cde8cef2)
+binary stamps:
+6 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1428691662000)
+/Users/lizbai/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar -> lastModified(1468969501000)
+/Users/lizbai/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.0.jar -> lastModified(1468970091000)
+/Users/lizbai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457496963000)
+/Users/lizbai/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> lastModified(1457496962000)
+/Users/lizbai/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar -> lastModified(1455224155000)
+class names:
+6 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/lizbai/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.0.jar -> org.apache.spark.SparkContext
+/Users/lizbai/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.0.jar -> org.apache.spark.sql.DatasetHolder
+/Users/lizbai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.math.BigInt
+/Users/lizbai/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+/Users/lizbai/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar -> org.slf4j.Logger
+internal apis:
+3 items
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA45GaUAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFZ1N8Z0AAZub3RpZnlzcQB+AAwzlsHfdAARc2F2ZURhdGFBc1BhcnF1ZXRzcQB+AAy2LD5qdAAEd2FpdHNxAH4ADAd98Fx0AA0kYXNJbnN0YW5jZU9mc3EAfgAMeG5GCHQABmxvZ2dlcnNxAH4ADHv5MBB0AAZlcXVhbHNzcQB+AAww5yvwdAAMYXNJbnN0YW5jZU9mc3EAfgAMNHXN+HQADHN5bmNocm9uaXplZHNxAH4ADIKQbdl0AA0kaXNJbnN0YW5jZU9mc3EAfgAMS7pYZnQABG1haW5zcQB+AAwzpCiSdAAJbm90aWZ5QWxsc3EAfgAMCZeuQHQADGlzSW5zdGFuY2VPZnNxAH4ADMaRIZl0AAI9PXNxAH4ADNTf0610AAVjbG9uZXNxAH4ADNpuIm50AAh0b1N0cmluZ3NxAH4ADKI4Pl50AAIhPXNxAH4ADHuaJ/F0AAhnZXRDbGFzc3NxAH4ADK0V5o50AAJuZXNxAH4ADLEFo4l0AAJlcXNxAH4ADNpm2eJ0AAIjI3NxAH4ADJwGsvN0AAhmaW5hbGl6ZXNxAH4ADPIvqM50AAhoYXNoQ29kZXNxAH4ADJp0fQZ0AAhEYXRhTG9hZHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AO3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AF14cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFwAcHNxAH4AYXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBFTAAJaW5oZXJpdGVkcQB+AEVMAAdwYXJlbnRzcQB+AEV4cQB+AGVzcQB+AFwAcHNxAH4AYXVxAH4AQAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ARnEAfgBPdXEAfgBQAAAAAHNxAH4AUgBxAH4AIXVxAH4AVAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBkdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AG94cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFd0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHZbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGRzcQB+AHV0AAVBcnJheXEAfgB7dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHV0AAZTdHJpbmdzcQB+AHlzcQB+AHx1cQB+AH8AAAADc3EAfgCBdAAEamF2YXNxAH4AgXQABGxhbmdxAH4AhnNxAH4AXABwc3EAfgBhdXEAfgBAAAAAAHNxAH4AXABwc3EAfgBhdXEAfgCaAAAAAnNxAH4AdXQABk9iamVjdHEAfgCec3EAfgB1dAADQW55cQB+AHt1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV9JYpnh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABEL1VzZXJzL2xpemJhaS9Eb2N1bWVudHMvU2l0ZVRlc3QvQkZMb2FkaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS04iVCrFG8CQ4DIQHF+AnCWJkwcA==
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBJjTUaAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAA3XNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cL8iVtl0AA9CRUdJTl9USU1FX01TRUxzcQB+AAyQ6X5ZdAAPY29weSRkZWZhdWx0JDg5c3EAfgAMBcuxr3QABm5vdGlmeXNxAH4ADERY9e50ABRJbnRCVUZGRVJfRlVMTF9ERUxBWXNxAH4ADMwy3ZN0ABdUQ1BfQ09OTl8yX0ZBSUxFRF9USU1FU3NxAH4ADD6f1fV0AA9jb3B5JGRlZmF1bHQkOTZzcQB+AAzPkG9UdAAPY29weSRkZWZhdWx0JDMzc3EAfgAMrQ2RZHQAA1JBVHNxAH4ADDelFvJ0AA9jb3B5JGRlZmF1bHQkODVzcQB+AAzwzHs/dAAPY29weSRkZWZhdWx0JDc0c3EAfgAMm8EgC3QAD2NvcHkkZGVmYXVsdCQyMHNxAH4ADMNACLl0AA9jb3B5JGRlZmF1bHQkNTVzcQB+AAy84IUedAAPY29weSRkZWZhdWx0JDQ0c3EAfgAMjLCWQnQADUw0X0RXX0dPT0RQVVRzcQB+AAzXaZftdAAEd2FpdHNxAH4ADF+4iGB0AAxTR1NOX1VTRVJfSVBzcQB+AAzxSqn8dAAOU1RSRUFNSU5HX0ZMQUdzcQB+AAxvAMzWdAAESE9TVHNxAH4ADFBRSsJ0ABBWSURFT19GUkFNRV9SQVRFc3EAfgAMPZl/aXQAD2NvcHkkZGVmYXVsdCQ3OHNxAH4ADCPuvFx0AA9HRVRfTUlOX0RMX1NJWkVzcQB+AAyi6IVXdAAOY29weSRkZWZhdWx0JDJzcQB+AAwAK84xdAAMQlJPV1NFUl9UWVBFc3EAfgAMK3R0b3QAGUdFVF9TVFJFQU1JTkdfRkFJTEVEX0NPREVzcQB+AAzrSn8gdAANJGFzSW5zdGFuY2VPZnNxAH4ADGXE34h0AA9jb3B5JGRlZmF1bHQkODFzcQB+AAwNJQzRdAAPR0VUX01BWF9ETF9TSVpFc3EAfgAMkLIde3QAD2NvcHkkZGVmYXVsdCQzMHNxAH4ADK7sWmt0AA9FTkNSWVBUX1ZFUlNJT05zcQB+AAwbgtc4dAAPY29weSRkZWZhdWx0JDcwc3EAfgAMPqDJbXQAE0dFVF9TVFJFQU1JTkdfREVMQVlzcQB+AAx00ovydAAPY29weSRkZWZhdWx0JDQxc3EAfgAMoza2R3QACVNUQUxMX05VTXNxAH4ADNwnsOV0AA9jb3B5JGRlZmF1bHQkODhzcQB+AAzEkE+rdAAOY29weSRkZWZhdWx0JDVzcQB+AAzO9mWxdAAPY29weSRkZWZhdWx0JDQ4c3EAfgAM0AoAs3QAD2NvcHkkZGVmYXVsdCQ3NXNxAH4ADDqgkZJ0AA9jb3B5JGRlZmF1bHQkMjZzcQB+AAxSsRm2dAAYU1RSRUFNSU5HX0RPV05MT0FEX0RFTEFZc3EAfgAMvISv+3QAD2NvcHkkZGVmYXVsdCQ2M3NxAH4ADGS++F10AA5WSURFT19DT0RFQ19JRHNxAH4ADCQLQtd0AA1MNF9VTF9HT09EUFVUc3EAfgAM18bAwnQADHByb2R1Y3RBcml0eXNxAH4ADEgAz510AAZlcXVhbHNzcQB+AAwcMeLddAAOY29weSRkZWZhdWx0JDlzcQB+AAxPCOp9dAAPY29weSRkZWZhdWx0JDIxc3EAfgAMm07PMnQAD2NvcHkkZGVmYXVsdCQxMnNxAH4ADCNuS+Z0ABBUQ1BfVUxfT1VUT0ZTRVFVc3EAfgAMDl3SpHQ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rYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4B0XhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgB/dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgHpeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgHoAHBzcQB+Ae1zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4B0UwACWluaGVyaXRlZHEAfgHRTAAHcGFyZW50c3EAfgHReHEAfgHxc3EAfgHoAHBzcQB+Ae11cQB+AcwAAAAAc3EAfgHoAHBzcQB+Ae11cQB+AcwAAAAAc3EAfgHoAHBzcQB+Ae11cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AfB0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AfBzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+Ag5zcQB+AgFxAH4CBHNxAH4CBXNxAH4CCHVxAH4CCwAAAANzcQB+Ag10AARqYXZhc3EAfgINdAACaW9xAH4CEnNxAH4CAXQAB1Byb2R1Y3RxAH4CB3NxAH4CAXQABkVxdWFsc3EAfgIHc3EAfgIBdAAGT2JqZWN0c3EAfgIFc3EAfgIIdXEAfgILAAAAA3NxAH4CDXEAfgIYc3EAfgINdAAEbGFuZ3EAfgISc3EAfgIBdAADQW55cQB+Agd1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV9JYpnh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABEL1VzZXJzL2xpemJhaS9Eb2N1bWVudHMvU2l0ZVRlc3QvQkZMb2FkaW5nL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQTQmeIueJNQri702HQKivyZ1lmTQ==
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAoVKFqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCX2B7J0AAZub3RpZnlzcQB+AAwgXRLDdAAEd2FpdHNxAH4ADNYo7lh0AA0kYXNJbnN0YW5jZU9mc3EAfgAMWXXx7nQADFRyYW5zZmVyVXRpbHNxAH4ADITcKpZ0AAZlcXVhbHNzcQB+AAwISzZMdAAOQmlnSW50VHJhbnNmZXJzcQB+AAxTC3dVdAAMTG9uZ1RyYW5zZmVyc3EAfgAML/robnQADGFzSW5zdGFuY2VPZnNxAH4ADFVpaX50AAxzeW5jaHJvbml6ZWRzcQB+AAx5Rp2/dAANJGlzSW5zdGFuY2VPZnNxAH4ADAHu5r10ABNwYXRpdGlvbktleVRyYW5zZmVyc3EAfgAMGXlgB3QACW5vdGlmeUFsbHNxAH4ADIa2Hdx0AAxpc0luc3RhbmNlT2ZzcQB+AAwB89k4dAACPT1zcQB+AAyVDFESdAAFY2xvbmVzcQB+AAz8ryGfdAAIdG9TdHJpbmdzcQB+AAzCh5jbdAACIT1zcQB+AAyeJYwtdAAIZ2V0Q2xhc3NzcQB+AAwndL7+dAALSW50VHJhbnNmZXJzcQB+AAyU0c4WdAACbmVzcQB+AAxbLLD0dAACZXFzcQB+AAwlP/tpdAACIyNzcQB+AAyjcI3zdAAIZmluYWxpemVzcQB+AAwhgOARdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ABV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBfeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBeAHBzcQB+AGNzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBnc3EAfgBeAHBzcQB+AGN1cQB+AEIAAAAAc3EAfgBeAHBzcQB+AGN1cQB+AEIAAAAAc3EAfgBeAHBzcQB+AGN1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGZ0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGZzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIN0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIRzcQB+AHd0AANBbnlzcQB+AHtzcQB+AH51cQB+AIEAAAACc3EAfgCDdAAFc2NhbGFxAH4AinVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFX0limeHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEQvVXNlcnMvbGl6YmFpL0RvY3VtZW50cy9TaXRlVGVzdC9CRkxvYWRpbmcvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFM5cSkwQGmPcrCOqOxdEEfbN6M7y
+external apis:
+0 items
+source infos:
+3 items
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/DataLoad.scala -> 
+AAAAAAAAAAA=
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/Streaming.scala -> 
+AAAAAAAAAAA=
+/Users/lizbai/Documents/SiteTest/BFLoading/src/main/scala/TransferUtil.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV9JYpnh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9saXpiYWkvRG9jdW1lbnRzL1NpdGVUZXN0L0JGTG9hZGluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
